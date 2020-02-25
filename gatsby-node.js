@@ -22,6 +22,8 @@ exports.onCreateWebpackConfig = ({
 						});
 				})
 		}
+		
+		options.classIdPrefix = true;
 
 		// Add the svg-react-loader rule
 		actions.setWebpackConfig({
